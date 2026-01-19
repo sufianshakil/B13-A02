@@ -14,15 +14,15 @@ header{
     padding: 30px 0;
     text-align: center;
     color: white;
-    /* max-width: 1600px; */
-}
+   }
+
+   /* NAV */
 .nav{
     border-bottom: 1px solid #412567;
 }
 nav{
     width: 75%;
     max-width: 1200px;
-    /* padding: 0 200px; */
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -61,6 +61,12 @@ nav a{
     border-radius: 50px;
     cursor: pointer;
 }
+.btn:hover{
+    background: -webkit-linear-gradient(right, #F7E93F, #FB09B4, #9100F8);
+    color: #00FF88;
+}
+
+/* NAV BOTTOM */
 
 .bg{
     background-image: url(./assets/hero-bg.png);
@@ -82,13 +88,16 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-top: -100px; */
+    transition: transform 3s;
 
 }
 
 .img3{
      position: absolute;
-    /* left: 500px;  */
+     transition: transform 3s;
+}
+.img3:hover{
+    transform: scale(1.5);
 }
 .img4{
     position: absolute;
@@ -102,8 +111,6 @@ nav a{
     border-radius: 50px;
     color: #1A0B2E;
     font-weight: bolder;
-    
-    
 }
 .hero-text h1{
     color: white;
@@ -114,7 +121,7 @@ nav a{
 p{
     font-size: 16px;
     color: #FFFFFF;
-    line-height: 19px;
+    line-height: 25px;
 }
 .btn-group{
     margin-top: 36px;
@@ -135,5 +142,38 @@ p{
     align-items: center;
     justify-content: center;
     gap: 10px;
+    cursor: pointer;
+}
+.btn2:hover{
+    transform: scale(1.5);
+    transition: transform 1s;
 
+}
+
+/* ABOUT */
+
+.about-text{
+    width: 75%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 200px;
+    border-bottom: 1px solid #412567;
+    padding-bottom: 60px;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.about-cards{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 80px;
+}
+.card h2{
+    font-size: 48px;
+    font-weight: 900px;
+    color: #00FF88;
 }
