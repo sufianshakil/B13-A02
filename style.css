@@ -177,3 +177,61 @@ h2{
     font-weight: 900px;
     color: #00FF88;
 }
+main .techwave{
+    background-color: #230E3D;
+    padding: 120px 0;
+}
+main .techwave h2{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.tecewave-container{
+    width: 75%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.tecewave-container h4{
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 16px 0;
+}
+.tecewave-container p{
+    font-size: 16px;
+    
+    color: #FFFFFF;
+    
+}
+.tecewave-container>*{
+    /* border: 1px solid red; */
+    background-color: #2A0F4D;
+    padding: 30px 20px;
+    border-radius: 30px;
+}
+
+.part-1{
+    grid-area: part-1;
+   }
+   .part-2{
+    grid-area: part-2;
+   }
+   .part-3{
+    grid-area: part-3;
+   }
+   .part-4{
+    grid-area: part-4;
+   }
+   .part-5{
+    grid-area: part-5;
+   }
+   
+.tecewave-container{
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+
+    "part-1 part-2 part-2"
+    "part-1 part-3 part-3"
+    "part-4 part-4 part-5"
+}
