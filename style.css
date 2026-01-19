@@ -74,13 +74,12 @@ nav a{
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
-    /* position: relative; */
     flex-direction: column;
     width: 100%;
     height: 80vh;
     align-items: center;
     justify-content: center;
-    /* inset: 0; */
+    
 }
 
 .img{
@@ -120,7 +119,7 @@ nav a{
 }
 p{
     font-size: 16px;
-    color: #FFFFFF;
+    color: #A5A1B6;
     line-height: 25px;
 }
 .btn-group{
@@ -251,8 +250,9 @@ h2{
     display: flex;
     justify-content: center;
     gap: 30px;
+    margin-bottom: 100px;
 }
-.featured-cards h4{
+ h4{
     color: #FFFFFF;
     font-size: 24px;
     font-weight: 700;
@@ -265,4 +265,69 @@ h2{
     display: flex;
     gap: 30px;
     margin: 12px;
+}
+
+/* host */
+
+.meet{
+    width: 75%;
+    max-width: 1200;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: #2A0F4D;
+    border-radius: 30px;
+    padding: 25px;
+}
+.bio{
+    margin: 0 30px;
+}
+.social-icon{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 25px;
+}
+.social-icon img{
+    border: 1px solid #9100F8;
+    padding: 10px;
+    border-radius: 50%;
+    /* width: 40px;
+    height: 40px; */
+}
+
+/* footer */ 
+footer{
+    background-image: url(./assets/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+}
+footer .logo h2{
+    font-size: 75px;
+    color: white;
+}
+footer .logo span{
+    background: linear-gradient(to top, #F7E93F, #FB09B4, #9100F8);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.link-container{
+    display: flex;
+    gap: 40px;
+}
+.link{
+    display: flex;
+    gap: 8px;
+}
+footer small{
+    color: #A5A1B6;
+    margin-top: 35px;
 }
