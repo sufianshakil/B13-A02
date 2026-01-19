@@ -231,3 +231,38 @@ h2{
     "part-1 part-3 part-3"
     "part-4 part-4 part-5"
 }
+
+/* Featured Episodes */
+.featured{
+    background-color: #1A0B2E;
+    padding: 120px 0;
+}
+.featured h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.featured-cards{
+    width: 75px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.featured-cards h4{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    margin-top: 24px;
+}
+.featured-cards span{
+    color: #00FF88;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    margin: 12px;
+}
