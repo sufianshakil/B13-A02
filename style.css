@@ -369,8 +369,8 @@ footer small{
 }
 
 .about-cards {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     gap: 20px;
     margin-top: 40px;
@@ -416,6 +416,9 @@ h2 {
     padding: 15px;
     align-items: center;
     text-align: center;
+}
+.social-icon{
+    justify-content: center;
 }
 footer .logo h2 {
     font-size: 45px;
