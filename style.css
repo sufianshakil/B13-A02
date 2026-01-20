@@ -76,7 +76,7 @@ nav a{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 80vh;
+    /* height: 80vh; */
     align-items: center;
     justify-content: center;
     
@@ -159,7 +159,9 @@ p{
     border-bottom: 1px solid #412567;
     padding-bottom: 60px;
 }
-
+.about-text h2{
+    margin-top: 50px;
+}
 h2{
     font-size: 48px;
     font-weight: 700;
@@ -244,13 +246,16 @@ h2{
     margin-bottom: 40px;
 }
 .featured-cards{
-    width: 75px;
+    width: 75%;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     gap: 30px;
     margin-bottom: 100px;
+}
+iframe{
+    width: 100%;
 }
  h4{
     color: #FFFFFF;
@@ -321,13 +326,105 @@ footer .logo span{
 }
 .link-container{
     display: flex;
-    gap: 40px;
+    gap: 8px;
 }
 .link{
     display: flex;
-    gap: 8px;
+    gap: 10px;
+    width: 150px;
+    height: 20px;
 }
 footer small{
     color: #A5A1B6;
     margin-top: 35px;
 }
+
+
+/* @media screen  */
+
+@media screen and (max-width:576px){
+
+    nav{
+        flex-direction: column;
+    }
+    nav ul {
+        margin-bottom: 20px;
+    }
+    .img{
+        margin-top: 50px;
+    }
+    .btn-group{
+        margin-bottom: 30px;
+    }
+    .hero-text h1{
+        font-size: 38px;
+    }
+    
+    .about-text {
+    width: 95%;
+    padding: 0 5px;
+    border-bottom: 1px solid #412567;
+    padding-bottom: 60px;
+    /* margin-top: 15%; */
+}
+
+.about-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+.techwave {
+    padding: 40px 0;
+}
+h2 {
+    font-size: 28px;
+    
+}
+.tecewave-container {
+    width: 95%;
+}
+
+.tecewave-container {
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+        "part-1"
+        "part-2 "
+        "part-3"
+        "part-4 "
+        "part-5";
+}
+.featured {
+    padding: 15px 0;
+}
+.featured h2 {
+    font-size: 28px;
+     margin-bottom: 20px;
+}
+.featured-cards {
+    width: 95%;
+    overflow: hidden;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.meet {
+    width: 95%;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+}
+footer .logo h2 {
+    font-size: 45px;
+}
+.link-container {
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+    
+}
+    
